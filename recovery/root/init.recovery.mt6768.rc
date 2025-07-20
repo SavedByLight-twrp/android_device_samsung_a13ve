@@ -5,7 +5,7 @@ on early-init
     mkdir /mnt/vendor/efs 0771 radio system
 
 on init
-    #setprop sys.usb.configfs 1
+    setprop sys.usb.configfs 1
 
 on fs && property:ro.debuggable=0
     # distinguish USB shoulde connect or not, i.e. CDP vs SDP
