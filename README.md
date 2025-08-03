@@ -14,7 +14,7 @@ Fixes added by [SavedByLight](https://github.com/SavedByLight)
 $ mkdir tw; cd tw
 
 # Init repo
-$ repo init --depth=1 -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-11
+$ repo init --depth=1 -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-12.1
 
 # Clone a13ve repo
 $ git clone https://github.com/SavedByLight-twrp/android_device_samsung_a13ve device/samsung/a13ve
@@ -35,6 +35,7 @@ $ Work in progress, to follow
 Blobs version:
 > Kernel base: Compiled from source, big thanks to @physwizz: https://github.com/physwizz/a137-T
 > Ramdisk, DTB, DTBO base: A137FXXU1BVL1
+
 
 
 
