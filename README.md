@@ -1,10 +1,10 @@
-## Recovery Device Tree for the Samsung Galaxy A13 - SM-A137F (MTK) - TESTING
+## Recovery Device Tree for the Samsung Galaxy A13 - SM-A137F (MTK) - tested & working
 
 Mounting /Data is still failing, as we need encryption blobs in A13.
 
-Thanks (Physwizz)[https://github.com/physwizz] for compressed kernel Image.gz!!!
-Thanks (Edward0181)[https://github.com/edward0181] for creating the majority of the tree
-Fixes added by (SavedByLight)[https://github.com/SavedByLight]
+Thanks [Physwizz](https://github.com/physwizz) for compressed kernel Image.gz!!!
+Thanks [Edward0181](https://github.com/edward0181) for creating the majority of the tree
+Fixes added by [SavedByLight](https://github.com/SavedByLight)
 
 ## How-to compile it:
 
@@ -33,4 +33,5 @@ $ Work in progress, to follow
 Blobs version:
 > Kernel base: Compiled from source, big thanks to @physwizz: https://github.com/physwizz/a137-T
 > Ramdisk, DTB, DTBO base: A137FXXU1BVL1
+
 
